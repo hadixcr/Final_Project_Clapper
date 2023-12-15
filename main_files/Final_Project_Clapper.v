@@ -100,7 +100,10 @@ module Final_Project_Clapper
 		.outData(fftOutData)
 	);
 	
-	
+	//We use the clock that the rest of the program is using to keep it up to date with the system.
+	//We also use the inverse of configReady to determine when the rest of the program resets.
+	//The output of this module is the count of how many claps there are which will be used in the
+	//next module instantiation to display the amount of claps being delivered to the system.
 	clapCounter clapCount
 	(
 		.clk(CLOCK_50),
@@ -108,7 +111,10 @@ module Final_Project_Clapper
 		.fftInDataAbs(fftInDataAbs),
 		.countDisplay(count)
 	);
-	
+
+	//This has the same clock and reset for the same reasons as the last module.
+	//The count input is used to determine how many leds will light up to show the amount of claps.
+	//The output is the amount of green leds that need to light up in order to display the correct count of the claps.
 	LEDcountOn LEDturnOn
 	(
 		.clk(CLOCK_50),
