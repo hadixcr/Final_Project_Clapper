@@ -1,0 +1,6 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,IirFilter:iirf0|SecondOrderSection:sos3|IirMultiplier:im0|lpm_mult:lpm_mult_component|mult_9sq:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,IirFilter:iirf0|SecondOrderSection:sos2|IirMultiplier:im0|lpm_mult:lpm_mult_component|mult_9sq:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,IirFilter:iirf0|SecondOrderSection:sos1|IirMultiplier:im0|lpm_mult:lpm_mult_component|mult_9sq:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,IirFilter:iirf0|SecondOrderSection:sos0|IirMultiplier:im0|lpm_mult:lpm_mult_component|mult_9sq:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,IirFilter:iirf0|SecondOrderSection:sos3|IirMultiplier:im0|lpm_mult:lpm_mult_component|mult_9sq:auto_generated|mac_mult1,
